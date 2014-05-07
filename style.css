@@ -1,0 +1,243 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+ /* introduction */
+
+ body{
+     
+     margin: 0 auto;
+    width: 940px;
+    font: 13px/22px Helvetica, Arial, sans-serif;
+    background: #f0f0f0;
+    padding: 4px;
+     
+ }
+ h1{
+     line-height: 44px;
+     font-size: 27px;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     font:bold;
+ }
+ h2{
+     font-size: 22px;
+     line-height: 50px;
+     padding: 22px 0;
+     
+     
+ }
+ 
+ h3 {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 11px 0;
+}
+p {
+    padding-bottom: 22px;
+}
+
+.navigation{
+    max-width:940px;
+    margin:0 auto;
+}
+nav ul {
+    margin: 0 auto;
+    width: 940px;
+    list-style: none;
+}
+nav {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    
+}
+nav ul li {
+    float: left;
+}
+ 
+    nav ul li a {
+        display: block;
+        margin-right: 20px;
+        width: 140px;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        text-decoration: none;
+        color: gray;
+        padding: 10px 3px;
+    }
+    
+ 
+        nav ul li a:hover {
+            color: white;
+        }
+ 
+        nav ul li.selected a {
+            color:green;
+        }
+ 
+        nav ul li.subscribe a {
+            margin-left: 22px;
+            padding-left: 24px;
+            text-align: left;
+            background: url("rss.png") left center no-repeat;
+        }
+        #intro {
+    margin-top: 66px;
+    padding: 66px;
+    background: url("img3.png") repeat-x;
+    background-size: 100%;
+   height: 270px;
+}#intro h2, #intro p¬†{
+    padding-top: 5px;
+    width: 250px;
+    color:white;
+    font-weight: normal;
+}
+ 
+#intro h2 {
+    padding-top:opx;
+    padding-bottom:0px;
+    font-weight: normal
+    color #fff;
+}
+ 
+#intro p {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: #d9f499;
+    width: 350px;
+}
+#intro {
+    
+    background: #467612 url("intro_background.png") top left (287px 100%) repeat-x,
+            url("intro_flower.png") top right (653px 100%) no-repeat;
+    margin-bottom: 15px;
+}
+#content{
+    display: table;
+}
+
+#mainContent{
+    display: table-cell;
+    width: 620px;
+    padding-right: 22px;
+    
+    
+}
+
+
+aside{
+    
+    display : table-cell;
+    width: 300px;
+    
+}
+aside .side-wrap{
+    padding-left:20px;
+    padding-top: 5px;
+}
+.blogPost {
+    column-count: 2;
+    column-gap: 22px;
+    margin: 22px 0;
+    box-shadow: 3px 3px 7px #777;
+}
+
+.blogpost{
+    width:70%;
+    float:left;
+}
+ 
+    .blogPost header {
+        column-span: all;
+    }
+    section#comments article:nth-child(2n+1) {
+    padding: 21px;
+    background: #E3E3E3;
+    border: 1px solid #d7d7d7;
+ 
+    /* Border-radius not implemented yet */
+    border-radius: 11px;
+   
+}
+
+#footbox {
+   
+    left: 0;
+    width: 100%;
+    background-color: black;
+    text-align: left;
+    clear:both;
+    }
+
+
+#footbox article{
+    width:30%;
+    float:left;
+    color:#999;
+    padding:20px;
+}
+
+footer  a {
+    
+    color: #999;
+}
+
+
+#footbox .footer-wrap
+{
+    max-width:1140px;
+    margin:0 auto;
+   
+}
+#sidebox{
+    
+    background-color: #e3e3e3;
+    
+    
+}
+.suscribe a{
+    background-image:url('rss.png');
+}
+#sidebox a{
+    text-decoration: none;
+    color:#000;
+    
+}
+#sidebox a:hover{    
+    
+    text-decoration: underline;
+    
+}
+
+.leftcont {
+    
+    
+  float:left;  
+  width:48%;
+    
+}
+
+.rightcont
+{
+    
+    float: right;
+    width:48%;
+}
+.maincontent{
+    padding: 4px;
+}
+#comments{
+    clear: both;
+    
+}
+#sidebox .sidewap .cat {
+    border-radius: 50px;
+    
+}
