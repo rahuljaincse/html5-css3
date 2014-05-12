@@ -44,7 +44,7 @@
             Ut enim ad minim veniam, quis nostrud 
             exercitation ullamco laboris nisi ut.
         </p>
-        <img src="C:\wamp\www\htmlsite\img3.png" />
+        
         
         </section>
        
@@ -82,7 +82,7 @@ Posted on June 29th 2009 by Mads Kjaer - 3 comments
                                     Quisque non elit et elit lacinia lobortis nec a velit. 
                                     Sed ac nisl sed enim consequat porttitor.</p>
 
-<img src="img.png"  />                      
+<img src="img.jpg"  />                      
                         
    <p>
                                     Pellentesque ut sapien arcu, egestas mollis massa. 
@@ -261,7 +261,22 @@ Posted on June 29th 2009 by Mads Kjaer - 3 comments
             </article>
             </div>
         </footer>
-        
+        <p>
+    <?php
+    // Print out the position of a letter that is in
+    // your own name
+    strpos("puneet","p"); 
+    ?>
+    </p>
+    <p>
+    <?php
+    // Check for a false value of a letter that is not
+    // in your own name and print out an error message
+    if (strpos("david","h") === false) {
+        print "Sorry, no 'h' in 'david'";
+    }
+    ?>
+    </p>
     </body>
     
     
